@@ -1,0 +1,78 @@
+# ==========================================
+# MindVault - JavaScript Project
+# ==========================================
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Build Output
+dist/
+build/
+coverage/
+
+# Cache
+.cache/
+.vite/
+.turbo/
+.eslintcache/
+
+# Uploaded Documents
+api/uploads/*
+!api/uploads/.gitkeep
+
+# Storage
+api/storage/*
+!api/storage/.gitkeep
+
+# Database Backups
+*.dump
+*.bak
+*.sql.backup
+
+# Credentials & Secrets
+*.pem
+*.key
+*.crt
+*.p12
+credentials.json
+service-account*.json
+
+# Testing
+.nyc_output/
+test-results/
+playwright-report/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Deployment
+.vercel/
+.firebase/
+
+# Keep PNPM Files
+!pnpm-lock.yaml
+!pnpm-workspace.yaml
